@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web Dev's Max — Job Onimisi Victor. Web development, UI/UX design and digital experiences.">
+  <title>Web Dev's Max — Job Onimisi Victor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-mark">W</div>
+      <p class="loader-brand">WEB DEV'S MAX</p>
+      <p class="loader-sub">Building Digital Excellence</p>
+      <div class="loader-track"><span></span></div>
+      <small id="loadingText">Initializing experience...</small>
+    </div>
+  </div>
+
+  <div class="noise" aria-hidden="true"></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="navbar" id="navbar">
+    <a class="brand" href="#home" aria-label="Web Dev's Max home">
+      <span class="brand-mark">W</span>
+      <span class="brand-text">Web Dev's Max</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="Toggle theme">
+        <span class="theme-icon">◐</span>
+        <span id="themeLabel">Dark</span>
+      </button>
+      <a class="btn btn-primary nav-hire" href="#contact">Hire Me <span>↗</span></a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> Available for freelance projects</div>
+        <p class="intro">Hello 👋 I'm</p>
+        <h1>Job Onimisi<br><span>Victor</span></h1>
+        <div class="role-line">
+          <span>Web Developer</span><i>•</i><span>UI/UX Designer</span><i>•</i><span>Founder</span>
+        </div>
+        <p class="hero-description">
+          I build premium websites, responsive web applications, beautiful user interfaces
+          and modern digital experiences through <strong>Web Dev's Max</strong>.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#projects">View My Work <span>↗</span></a>
+          <a class="btn btn-outline" href="#contact">Let's Talk</a>
+        </div>
+        <div class="hero-stack">
+          <span>HTML / CSS / JS</span><span>UI/UX</span><span>Figma</span><span>WordPress</span><span>SEO</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="portrait-frame">
+          <div class="portrait-glow"></div>
+          <div class="portrait-card">
+            <div class="portrait-top">
+              <span class="status"><i></i> web-devs-max</span>
+              <span>01 / 01</span>
+            </div>
+            <div class="portrait-core">
+              <div class="avatar">
+                <span>JV</span>
+              </div>
+              <p class="portrait-name">JOB ONIMISI VICTOR</p>
+              <p class="portrait-role">DEVELOPER / DESIGNER</p>
+            </div>
+            <div class="portrait-code">
+              <span>const</span> creator = {<br>
+              &nbsp;&nbsp;name: <b>"Job Victor"</b>,<br>
+              &nbsp;&nbsp;focus: <b>"digital excellence"</b>,<br>
+              &nbsp;&nbsp;status: <b>"ready_to_build"</b><br>
+              };
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="brand-strip">
+      <span>WEB DEVELOPMENT</span><b>✦</b><span>UI/UX DESIGN</span><b>✦</b>
+      <span>DIGITAL BRANDING</span><b>✦</b><span>WEB APPLICATIONS</span><b>✦</b><span>CREATIVE DESIGN</span>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow static">About Me</p>
+        <h2>One person.<br><span>The whole build.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="large-copy">
+            I'm <strong>Job Onimisi Victor</strong>, a web developer, UI/UX designer and the
+            creative force behind <strong>Web Dev's Max</strong>.
+          </p>
+          <p>
+            I create modern, responsive and visually engaging digital experiences for
+            individuals, businesses, organizations and brands — from websites and platforms
+            to portfolios, UI/UX designs and presentation decks.
+          </p>
+          <p>
+            My approach combines clean code, modern design, real usability and creative thinking,
+            taking projects from planning and wireframes through development, testing and launch.
+          </p>
+          <a class="text-link" href="#contact">Start a project <span>↗</span></a>
+        </div>
+        <div class="value-grid reveal">
+          <article class="value-card"><span>01</span><h3>Clean Code</h3><p>Handwritten HTML, CSS and JavaScript focused on clarity and performance.</p></article>
+          <article class="value-card"><span>02</span><h3>Clear Communication</h3><p>Regular updates throughout the project, not just at delivery.</p></article>
+          <article class="value-card"><span>03</span><h3>End to End</h3><p>Planning, UI/UX, development, deployment and continued improvement.</p></article>
+          <article class="value-card"><span>04</span><h3>Creative Risk</h3><p>Interfaces designed to feel memorable while staying usable and professional.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-heading reveal">
+        <p class="eyebrow static">Services</p>
+        <h2>Digital solutions<br><span>built with purpose.</span></h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-card reveal"><span class="service-number">01</span><div class="service-icon">&lt;/&gt;</div><h3>Web Development</h3><p>Responsive, interactive websites and web experiences built around real business goals.</p><div class="service-tags">HTML · CSS · JavaScript</div></article>
+        <article class="service-card reveal"><span class="service-number">02</span><div class="service-icon">◈</div><h3>UI/UX Design</h3><p>Clean interfaces, prototypes and user flows designed for clarity, usability and visual impact.</p><div class="service-tags">Figma · Canva · Prototyping</div></article>
+        <article class="service-card reveal"><span class="service-number">03</span><div class="service-icon">◎</div><h3>Business Websites</h3><p>Professional online homes that help businesses establish a strong digital presence.</p><div class="service-tags">Responsive · SEO · CMS</div></article>
+        <article class="service-card reveal"><span class="service-number">04</span><div class="service-icon">▦</div><h3>Web Applications</h3><p>Interactive dashboards, forms, authentication and useful digital tools that feel alive.</p><div class="service-tags">Forms · Dashboards · Auth</div></article>
+        <article class="service-card reveal"><span class="service-number">05</span><div class="service-icon">✦</div><h3>Brand & Presentation</h3><p>Visual systems, presentation decks and supporting digital materials that communicate clearly.</p><div class="service-tags">PowerPoint · Branding · Visuals</div></article>
+        <article class="service-card reveal"><span class="service-number">06</span><div class="service-icon">↗</div><h3>Project Management</h3><p>From concept to delivery, with organized milestones and regular communication.</p><div class="service-tags">Plan · Build · Ship</div></article>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow static">Skills & Stack</p>
+        <h2>Tools I use to<br><span>turn ideas into reality.</span></h2>
+      </div>
+      <div class="skills-layout">
+        <div class="terminal-card reveal">
+          <div class="terminal-head"><span></span><span></span><span></span><em>web-devs-max / stack.js</em></div>
+          <pre><code><span class="purple">const</span> stack = {
+  <span class="key">frontend</span>: [<span class="str">"HTML"</span>, <span class="str">"CSS"</span>, <span class="str">"JavaScript"</span>],
+  <span class="key">design</span>: [<span class="str">"Figma"</span>, <span class="str">"Canva"</span>],
+  <span class="key">platforms</span>: [<span class="str">"WordPress"</span>],
+  <span class="key">growth</span>: [<span class="str">"SEO"</span>],
+  <span class="key">delivery</span>: <span class="str">"plan → design → build → ship"</span>
+};</code></pre>
+        </div>
+        <div class="skill-cloud reveal">
+          <div class="skill-pill featured">HTML5</div><div class="skill-pill">CSS3</div><div class="skill-pill featured">JavaScript</div>
+          <div class="skill-pill">PHP</div><div class="skill-pill">jQuery</div><div class="skill-pill featured">Figma</div>
+          <div class="skill-pill">Canva</div><div class="skill-pill">WordPress</div><div class="skill-pill">SEO</div>
+          <div class="skill-pill">Responsive Design</div><div class="skill-pill">UI/UX</div><div class="skill-pill">PowerPoint</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading project-heading reveal">
+        <div><p class="eyebrow static">Featured Work</p><h2>Selected<br><span>projects.</span></h2></div>
+        <p class="heading-note">A selection of digital experiences built through Web Dev's Max.</p>
+      </div>
+      <div class="project-grid">
+        <a class="project-card project-large reveal" href="https://sense-html.vercel.app/" target="_blank" rel="noopener">
+          <div class="project-visual sense"><span class="mock-window">SENSE<span>AI</span></span></div>
+          <div class="project-info"><div><small>SaaS Landing Page</small><h3>Sense</h3><p>A SaaS/app landing page template with pricing, feature breakdowns and testimonials.</p></div><span class="project-arrow">↗</span></div>
+        </a>
+        <a class="project-card reveal" href="https://faith-luxurious.vercel.app/" target="_blank" rel="noopener">
+          <div class="project-visual wonder"><span class="mock-product">WONDER<br><small>SALES</small></span></div>
+          <div class="project-info"><div><small>E-Commerce</small><h3>Wonder Sales</h3><p>E-commerce storefront for bags, honey and perfumes with cart and Paystack checkout.</p></div><span class="project-arrow">↗</span></div>
+        </a>
+        <article class="project-card reveal coming-soon">
+          <div class="project-visual dashboard"><div class="dash-line"></div><div class="dash-bars"><i></i><i></i><i></i><i></i></div></div>
+          <div class="project-info"><div><small>Web Application</small><h3>SmartPrep</h3><p>Learning platform concept with courses, assessments, payments and certification.</p></div><span class="project-arrow">↗</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section process">
+      <div class="section-heading reveal"><p class="eyebrow static">My Process</p><h2>From first idea<br><span>to final launch.</span></h2></div>
+      <div class="process-grid">
+        <div class="process-step reveal"><b>01</b><span>Discover</span><p>Understand the goal, audience and requirements.</p></div>
+        <div class="process-step reveal"><b>02</b><span>Design</span><p>Shape the structure, visuals and user experience.</p></div>
+        <div class="process-step reveal"><b>03</b><span>Develop</span><p>Turn the approved direction into responsive code.</p></div>
+        <div class="process-step reveal"><b>04</b><span>Launch</span><p>Test, polish, deploy and keep improving.</p></div>
+      </div>
+    </section>
+
+    <section class="company-band reveal">
+      <div><p class="eyebrow static">The Brand</p><h2>WEB DEV'S <span>MAX</span></h2><p>Building Digital Excellence.</p></div>
+      <p class="company-description">A modern web development and digital design brand specializing in premium websites, responsive web applications, UI/UX design, business branding and digital experiences.</p>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-card reveal">
+        <div class="contact-copy"><p class="eyebrow static">Get In Touch</p><h2>Let's build something<br><span>worth shipping.</span></h2><p>Have an idea, website or digital project? Let's turn it into something useful, polished and memorable.</p></div>
+        <div class="contact-actions">
+          <a class="contact-line" href="mailto:jobvictor25112011@gmail.com"><small>Email</small><strong>jobvictor25112011@gmail.com</strong><span>↗</span></a>
+          <a class="contact-line" href="tel:08149096449"><small>Phone</small><strong>0814 909 6449</strong><span>↗</span></a>
+          <a class="btn btn-primary full" href="mailto:jobvictor25112011@gmail.com">Start a Conversation ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><strong>WEB DEV'S MAX</strong><span>Building Digital Excellence</span></div>
+    <p>© <span id="year"></span> Web Dev's Max — Job Onimisi Victor. Built with intention.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="js/loader.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
